@@ -1,0 +1,81 @@
+/* 
+selector{
+    propiedad: valor;
+} 
+
+ Tipos de selectores
+
+ -selector universal 
+
+* {
+    color: red;
+} 
+
+
+-selector de tipo 
+
+
+h1 {
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+input{
+    color: green;
+}
+
+button{
+    color:aqua;
+}
+
+
+-selector de clases 
+
+.titulo-h2{
+    color:red;
+}
+
+
+-selector por ID
+
+
+
+#id-element{
+
+    color: green;
+
+}
+
+-selector por atributo 
+[atributo="si"]{
+
+    color:cyan;
+    
+}
+
+
+-atributo descendiente 
+
+h2 p{
+    color:red;
+}
+
+h2 b{
+    color:blue;
+}
+
+.titulo-h2 p{
+    color:cyan;
+}
+
+
+-atributo pseudoclase
+*/
+
+b:hover {
+    color:red;
+
+}
