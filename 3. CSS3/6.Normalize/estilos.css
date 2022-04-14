@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.estilos-css{
+    font-size: 25px;
+}
+
+.estilos-css__h2{
+    font-size: 2em;
+}
+
+.estilos-css__p{
+    font-size: 1em;
+} 
