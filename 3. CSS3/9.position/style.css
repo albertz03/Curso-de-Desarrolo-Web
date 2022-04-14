@@ -1,0 +1,167 @@
+/* position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+
+   un objeto posicionado afecta al flujo de HTML 
+
+ */
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+/* position relative */
+
+ div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    
+} 
+
+.caja1{
+    background-color: orange;
+    top: 20px;
+}
+
+.caja2{
+    background-color: green;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    z-index: 2;
+}
+
+.caja3{
+    background-color: lightblue;
+    position: relative;
+    z-index: 10;
+}
+
+.caja4{
+    background-color: yellow;
+}
+
+
+.contenedor{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin:40px;
+    position: relative;
+    
+    
+
+}
+
+.hijo{
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+
+
+
+/* position absolute */
+
+.caja1-absolute{
+    background-color: orange;
+
+}
+
+.caja2-absolute{
+    background-color: green;
+    position: absolute;
+    opacity: .5;
+    margin-left: 30px;
+
+}
+
+.caja3-absolute{
+    background-color: lightblue;
+    
+}
+
+
+.contenedor-abs{
+    position: relative;
+    border: 4px solid red;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    background-color: orange;
+}
+
+.caja1-abs{
+    background-color: lightblue;
+    position: absolute;
+
+
+}
+
+.caja2-abs{
+    background-color: lightcoral;
+    position: absolute;
+    right: 0px;
+
+
+}
+
+.caja3-abs{
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.caja4-abs{
+    background-color: lightsalmon;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+.caja5-abs{
+    background-color: limegreen;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    
+}
+
+
+/* position fixed - es igual a absolute pero fija */
+
+
+
+.contenedor-fixed{
+    background-color: red;
+    position: fixed;
+    top: 30px;
+    left: 500px;
+    opacity: .4;
+}
+
+
+.contenedor-sticky{
+    background-color: green;
+    position: sticky;
+    top: 100px;
+    left: 650px;
+    opacity: .4;
+    
+}
