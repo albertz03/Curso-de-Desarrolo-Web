@@ -1,0 +1,19 @@
+/* .caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    outline: 10px solid blue;
+    box-sizing: content-box;
+} */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+}
+
+.caja3 {
+    border: 5px solid red;
+}
