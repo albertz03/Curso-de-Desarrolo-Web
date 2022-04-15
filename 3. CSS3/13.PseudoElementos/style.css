@@ -1,0 +1,61 @@
+/*     
+Un pseudo elemento no es un elemento que forma parte de DOM, 
+pero muestran un cambio visual
+ */
+
+     * {
+         font-family: Impact;
+         font-weight: 100;
+         font-size: 20px;
+     }
+
+
+
+     .texto {
+         padding: 20px;
+     }
+
+     .texto::first-letter { /* solo se puede aplicar a objetos en bloque */
+         color: blue;
+         font-size: 2em;
+     }
+
+
+    form {
+         margin: 100px auto;
+         display: block;
+         background-color: #555;
+         padding: 20px;
+         width: 50%;
+     }
+
+     input {
+         padding: 6px;
+         width: 100%;
+     }
+
+     input::placeholder {
+         color: red;
+         font-size: 1.4em;
+         background-color: yellow;
+     }
+
+     input::selection {
+         color:yellow;
+         background-color: red;
+     }
+
+
+     /* pseudo elementos para Hijos de contenedores */
+
+     b::before {
+         content: "texto antes";
+         color: red;
+
+     }
+
+     b::after {
+        content: "texto despues";
+        color: royalblue;
+
+    }

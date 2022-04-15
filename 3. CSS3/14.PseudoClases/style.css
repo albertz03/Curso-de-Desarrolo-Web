@@ -1,0 +1,31 @@
+/*     
+Pseudo Clases
+
+    :hover
+    :link
+    :visited
+    :active
+    :focus
+    :lang
+
+ */
+
+* {
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    transition: all 1s;
+}
+
+.caja1:hover {
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+}
