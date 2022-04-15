@@ -1,0 +1,36 @@
+/* 
+display:
+    block  - en bloque (ej. b)
+    Inline - en linea (ej. h1)
+
+    Inline-block - se puede modificar las dimensiones de la caja
+
+    table
+    Inline-table
+    List-item
+    Table-cell
+    Table-row
+    Table-column
+
+    Flex 
+    Grid
+
+    Inline-Flex 
+    Inline-grid
+     */
+    
+
+     * {
+         font-family: Impact;
+         font-weight: 100;
+         font-size: 40px;
+     }
+
+     b {
+         width: 300px;
+         height: 300px;
+         margin: 20px;
+         border: 10px solid red;
+         background: yellow;
+         display: inline-block;
+     }
